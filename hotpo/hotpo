@@ -3,7 +3,7 @@
 try:
     num=int(input("What number would you like to use? \n"))
 except(ValueError):
-    print("Sorry, but I need and integer!")
+    print("Sorry, but I need an integer!")
 
 while num!=1:
     if num%2==0:
