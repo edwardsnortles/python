@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+'''Author=William Muhlbach'''
 try:
     num=int(input("What number would you like to use? \n"))
 except(ValueError):
