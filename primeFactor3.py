@@ -31,8 +31,8 @@ def GCF(x,y):
     return common_factors[len(common_factors)-1]
 #-------------------------------------
 if __name__ == '__main__':
-    print GCF(55,88)
+    print(GCF(55,88))
     for i in range (1, 11):
-        print is_prime(i)
+        print(is_prime(i))
     for i in range(1, 11):
-        print factorize(i)
+        print(factorize(i))
